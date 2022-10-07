@@ -4,10 +4,13 @@
     <title>Meeting Minutes</title>
   </head>
   <body>
-    Title: Code Review Meeting<br>
-    Description: Check in with SWE team about current implementation of script<br>
-    Date: 10/06/2022<br>
+    <section>
+        Title: Code Review Meeting<br>
+        Description: Check in with SWE team about current implementation of script<br>
+        Date: 10/06/2022<br>
     <br>
+    </section>
+    
     Attendance: 
     <ul>
         <li>Gnamitha</li>
@@ -23,6 +26,8 @@
         <li>Review TDK system application</li>
         <li>Wrap Up & Questions</li>
         <li>Action Items for Next Meeting</li>
+        <li>Final Summary of Notes</li>
+
     </ul>
 
     Unfinished Tasks from Last Meeting: 
@@ -48,9 +53,7 @@
     <video width="320" height="240" controls>
         <source src="video.mp4">
     </video>
-    <br><br>
-          
-    
+    <br><br>    
 
     Wrap Up and Questions: 
     <ul>
@@ -59,13 +62,66 @@
         <li>User Testing - TBD</li>
     </ul>
 
-    Action Items: 
+    Action Items:
     <ul>
         <li>Set up a meeting with users for testing [Gnamitha]</li>
         <li>Check availability of devices [Tom]</li>
         <li>Start low humidity gas test [Matt]</li>
     </ul>
 
+    <details>
+        <summary>Final Summary of Notes</summary>
+        <ul>
+            <li>Code Review was successful</li>
+            <li>Meeting with Users for Testing</li>
+            <li>On track to release on time</li>
+        </ul>
+    </details>
+
+    <br>
+    Form: 
+    <form>
+        <fieldset>
+          <legend>HR Moderator Meeting Feedback Form:</legend>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="w3review">Review of Moderator:</label>
+          <textarea id="w3review" name="w3review" rows="4" cols="50">
+          </textarea> <br><br>
+          <label for="rating-efficiency">Rate the moderator on efficiency :</label>
+          <input list="types-of-ratings" id="rating-efficiency" name="rating-efficiency">
+
+          <datalist id="types-of-ratings">
+            <option value="Excellent">
+            <option value="Good">
+            <option value="Fine">
+            <option value="Satisfactory">
+            <option value="Very Bad">
+          </datalist> <br><br>
+
+          <label for="rating">Rate the meeting with 1 being worst and 5 being best: </label>
+
+          <select name="rating" id="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+
+          </select> <br><br>
+
+
+
+
+          <button type="button">Submit</button>
+
+
+        </fieldset>
+    </form>
 
 
     
