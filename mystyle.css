@@ -1,14 +1,13 @@
 body {
-    background-color: lightblue;
+    background-color: olive;
   }
   
   h1 {
     color: black;
     background-color: rgb(197,93, 161);
-    margin-left: 20px;
   }
   section{
-    color: #FFF;
+    color: #0000ff;
     background-color: hsl(0, 100%, 50%);
 
   }
