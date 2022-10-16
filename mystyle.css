@@ -1,8 +1,16 @@
+
+
 body {
     background-color: lightblue;
   }
   
   h1 {
-    color: navy;
+    color: black;
+    background-color: rgb(197,93, 161);
     margin-left: 20px;
+  }
+  section{
+    color: #FFF;
+    background-color: hsl(0, 100%, 50%);
+
   }
