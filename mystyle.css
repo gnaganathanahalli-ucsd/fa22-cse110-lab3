@@ -1,13 +1,15 @@
 body {
-    background-color: olive;
+    background-color: linen;
   }
   
+  /* title header */
   h1 {
     color: black;
     background-color: rgb(122, 108, 118);
   }
+  /* section colors */
   section{
     color: #0000ff;
     background-color: hsl(0, 6%, 56%);
-
   }
+
