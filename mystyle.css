@@ -74,15 +74,24 @@ body {
   section.intro {
     background-color: rgb(91, 77, 126);
     color: azure;
-    text-align: center;
+    text-align: right;
     font-size: medium;
     height: 75px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-basis: auto;
   }
 
   ul{
     color: rgb(4, 3, 65);
     display: inline-block;
     font-size: medium;
+  }
+  .container{
+    display: inline-grid;
+    grid-template-rows: [row1-start] 25% [row1-end row2-start] 25% [row2-end];
+    grid-template-columns: repeat(5, 150px [col-start]);
+    grid-column-start: col-start 2;
   }
   li{
     color: rgb(4, 3, 65);
@@ -132,6 +141,7 @@ body {
   div p{
     font-size: medium;
     color: rgb(194, 48, 48);
+    
   }
 
   div > p{
@@ -153,12 +163,14 @@ body {
   strong {
     color: rgb(54, 35, 66);
     font-size: medium;
+    
   }
 
   form{
     font-size: medium;
     background-color: #b19cb9;
     position: absolute;
+    
   }
   a[target=_blank]{
     background-color: rgb(43, 11, 53);
