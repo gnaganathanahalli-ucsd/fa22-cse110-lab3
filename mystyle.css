@@ -1,19 +1,172 @@
+@font-face {
+  font-family: "myFont";
+  src: url("myFont.ttf");
+}
+
+@media all and (display-mode: fullscreen){
+}
+
+*{
+  font-family: "myFont", "Roboto-Thin", serif;
+}
+
+
 body {
-    background-color: linen;
-    
+    background-color:  #E9DCC9;
+    overflow-x: hidden;
   }
+
   
   /* title header */
   h1 {
-    color: black;
+    color: rgb(58, 50, 160);
     background-color: rgb(122, 108, 118);
-    font-size: 50em;
-    font-weight: 100px;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    width: 1650px;
+    min-width: none;
+    max-width: 5000px;
+    display: block;
   }
-  /* section colors */
-  section{
-    color: #0000ff;
-    background-color: hsl(0, 6%, 56%);
-    font-size: 1lh;
+  
+  h2 {
+    color: black;
+    font-size: 2lh;
+    display: block;
+  }
+  h3 {
+    color: black;
+    font-size: 3ex;
+    text-align: right;
   }
 
+  h2,h3{
+    text-align: center;
+  }
+
+  h4 {
+    color: black;
+    font-size: 17px;
+  }
+  .box{
+    border-style: double;
+  }
+
+  h5 {
+    color: black;
+    font-size: 5mm;
+    display: inline;
+  }
+
+  b{
+    font-size: 13pt;
+  }
+
+  /* section colors */
+  section{
+    color: black;
+    background-color: hsl(0, 6%, 56%);
+    height: 200px;
+    display: block;
+  }
+
+  section.intro {
+    background-color: rgb(91, 77, 126);
+    color: azure;
+    text-align: center;
+    font-size: medium;
+    height: 75px;
+  }
+
+  ul{
+    color: rgb(4, 3, 65);
+    display: inline-block;
+    font-size: medium;
+  }
+  li{
+    color: rgb(4, 3, 65);
+    position: relative;
+  }
+  
+  button:hover {
+    color: rgb(32, 7, 44);
+  }
+
+  button:active{
+    box-shadow: 2px 2px 5px rgb(32, 32, 80);
+  }
+  button{
+    position: static;
+  }
+  p {
+    width: 300px;
+    border-style:groove;
+    border-color: rgb(122, 96, 143);
+    border-width: 15px;
+    border-radius: 2px;
+    padding: 50px;
+    margin: auto;
+  }
+
+  #one{
+    width: 300px;
+    border-style:groove;
+    border-color: rgb(168, 143, 189);
+    border-width: 15px;
+    border-radius: 2px;
+    padding: margin-top;
+    margin: 20px;
+  }
+
+  #two{
+    width: 500px;
+    border-style:groove;
+    border-color: rgb(168, 143, 189);
+    border-width: 0px;
+    border-radius: 0px;
+    padding: 15px;
+    margin: 0px;
+
+  }
+  div p{
+    font-size: medium;
+    color: rgb(194, 48, 48);
+  }
+
+  div > p{
+    background-color: rgb(233, 197, 197);
+
+  }
+
+  strong ~ p {
+    font-size: medium;
+    background-color: rgb(223, 214, 243);
+    
+  }
+
+  br + strong {
+    text-decoration: underline;
+  }
+
+
+  strong {
+    color: rgb(54, 35, 66);
+    font-size: medium;
+  }
+
+  form{
+    font-size: medium;
+    background-color: #b19cb9;
+    position: absolute;
+  }
+  a[target=_blank]{
+    background-color: rgb(43, 11, 53);
+    color: antiquewhite;
+  }
+
+
+
+
+  
+  
