@@ -5,14 +5,19 @@
     <link rel="stylesheet" href="mystyle.css">
   </head>
   <body>
-    <section>
-        <h1 style="color:black;text-align:center;"> Code Review Meeting </h1> <br>
-        <h2 style="color:black;text-align:center;">Description: Check in with SWE team about current implementation of script</h2> <br>
-        <h2 style="color:black;text-align:center;"> Date: 10/06/2022</h2><br>
-    <br>
+    <section class="box">
+        <h1> Code Review Meeting </h1>
+        <h2 style="color:black;">Description: Check in with SWE team about current implementation of script</h2>
+        <h3> Date: 10/06/2022</h3>
+    </section>
+
+    <section class="intro">
+      Meeting Minutes Author: Gnamitha Naganathanahalli <br>
+      Uploaded: 10/16/2022 <br>
+      Emailed to everyone in engineering and chemistry team
     </section>
     
-    Attendance: 
+    <h4> Attendance:  </h4> 
     <ul>
         <li>Gnamitha</li>
         <li>Tom</li>
@@ -21,7 +26,7 @@
         <li>Elaine</li>
     </ul>
     
-    Agenda: 
+    <h4> Agenda:  </h4> 
     <ul>
         <li>Unfinished Tasks from Last Meeting</li>
         <li>Review TDK system application</li>
@@ -31,39 +36,49 @@
 
     </ul>
 
-    Unfinished Tasks from Last Meeting: 
+    <h4> Unfinished Tasks from Last Meeting: </h4> 
     <ul>
         <li>take a look at the broken TDK system [Elaine] -> completed and error fixed; there was a leak</li>
         <li>update the computer software according to calendar [Tom] -> completed; software has been updated and properly logged</li>
         <li>start a low humidity gas test [Matt] -> not done, need approval from chem team, goal: tomorrow</li>
     </ul>
 
-    Review TDK system application: <br><br>
-    
-    Whiteboard Overview Diagram<br>
+    <h4> Review TDK system application: </h4> <br>    
+    <strong> Whiteboard Overview Diagram </strong><br>
+    <p> 
     <picture>
         <img src="whiteboard_picture.PNG" alt="Flowers" style="width:465px;">
     </picture>
+    </p>
     <br>
-    Audio Recording of Review<br>
+
+    
+    <strong>Audio Recording of Review</strong><br>
+    <p id="one">
     <audio controls autoplay>
         <source src="audio.m4a">
     </audio>
+    </p>
     <br>
-    Video Recording of Review<br>
+
+    
+    <strong>Video Recording of Review</strong><br>
+    <p>
     <video width="320" height="240" controls>
         <source src="video.mp4">
     </video>
-    <br><br>    
+    </p>
+    <br>    
 
-    Wrap Up and Questions: 
+    <h4> Wrap Up and Questions: </h4> 
+
     <ul>
         <li>Anticiated Release - one week from today</li>
         <li>Dev Testing - tomorrow</li>
         <li>User Testing - TBD</li>
     </ul>
 
-    Action Items:
+    <h4> Action Items:</h4>
     <ul>
         <li>Set up a meeting with users for testing [Gnamitha]</li>
         <li>Check availability of devices [Tom]</li>
@@ -71,7 +86,9 @@
     </ul>
 
     <details>
-        <summary>Final Summary of Notes</summary>
+        <summary>
+           <b>Summary of Notes</b> 
+        </summary>
         <ul>
             <li>Code Review was successful</li>
             <li>Meeting with Users for Testing</li>
@@ -79,11 +96,21 @@
         </ul>
     </details>
 
+    <div>
+      <h5> Form: </h5> 
+      <br><br>
+      <p id="two">
+        Please fill out the form below to evaluate the moderator of today's meeting.
+      </p>
+      <p id="two">
+        This will help the HR department improve the way meetings are run.
+      </p>
+    </div>
     <br>
-    Form: 
+    
     <form>
         <fieldset>
-          <legend>HR Moderator Meeting Feedback Form:</legend>
+          <legend> <a target="_blank"> HR Moderator Meeting Feedback Form: </a></legend>
           <label for="fname">First name:</label>
           <input type="text" id="fname" name="fname"><br><br>
           <label for="lname">Last name:</label>
@@ -118,7 +145,7 @@
 
 
 
-          <button type="button">Submit</button>
+          <button type="button"> <b>Submit</b></button>
 
 
         </fieldset>
